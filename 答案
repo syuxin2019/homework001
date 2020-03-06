@@ -1,0 +1,7 @@
+Fibonacci.of(int x)
+
+def Fibonacci.of(int n): 
+　　if (n < 3):
+　　　　return 1
+    else (n>=3 and n<=20)
+　　return Fibonacci.of(n-1) + Fibonacci.of(n-2)
